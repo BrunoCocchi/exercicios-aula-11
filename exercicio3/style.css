@@ -1,0 +1,19 @@
+input:checked+label {
+    color: blue;
+}
+
+input:disabled+label {
+    color: gray;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:required {
+    background-color: yellow;
+}
